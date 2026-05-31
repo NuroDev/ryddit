@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This project is still a work-in-progress while I wait for Reddit to approve my app
+
 # ryddit
 
 Rich link previews for Reddit. Share a Reddit link on Discord, Telegram, Slack,
