@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ryddit",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "dev": {
+    "generate_types": true,
+  },
+  "kv_namespaces": [
+    {
+      "binding": "TOKENS",
+      "id": "2820efd105eb4480bc88086bfdbb9df0",
+    },
+  ],
+  "vars": {
+    "REDDIT_USER_AGENT": "web:com.ryddit:v1.0.0 (by /u/RydditEmbeds)",
+  },
+  "secrets": {
+    "required": ["REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET"],
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+    },
+    "traces": {
+      "enabled": true,
+    },
+  },
+  "route": {
+    "custom_domain": true,
+    "pattern": "ryddit.com",
+  },
+}

@@ -141,3 +141,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# wrangler project
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+.wrangler/

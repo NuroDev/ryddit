@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "arrowParens": "always",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "ignorePatterns": [
+    ".wrangler/",
+    "dist/**/*",
+    "node_modules/**/*",
+    "pnpm-lock.yaml",
+    "worker-configuration.d.ts"
+  ],
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "semi": true,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "sortImports": {
+    "internalPattern": ["~/*"]
+  },
+  "tabWidth": 4,
+  "trailingComma": "all",
+  "useTabs": true
+}
