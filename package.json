@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "better-result": "^2.9.2",
-    "hono": "^4.12.23",
+    "hono": "^4.12.25",
     "zod": "^4.4.3"
   },
   "devDependencies": {
