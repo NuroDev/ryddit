@@ -15,19 +15,19 @@
     "typecheck": "tsc --noEmit -p tsconfig.json -p __tests__/tsconfig.json"
   },
   "dependencies": {
-    "better-result": "^2.9.2",
-    "hono": "^4.12.25",
+    "better-result": "^2.10.0",
+    "hono": "^4.12.31",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.16.10",
-    "@types/node": "^25.9.1",
-    "msw": "^2.14.6",
-    "oxfmt": "^0.52.0",
-    "oxlint": "^1.67.0",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.7",
-    "wrangler": "^4.95.0"
+    "@cloudflare/vitest-pool-workers": "^0.18.7",
+    "@types/node": "^26.1.1",
+    "msw": "^2.15.0",
+    "oxfmt": "^0.60.0",
+    "oxlint": "^1.75.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.113.0"
   },
   "engines": {
     "node": "^24"
